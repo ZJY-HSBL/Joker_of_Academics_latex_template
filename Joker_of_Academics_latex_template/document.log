@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.14)  20 FEB 2026 15:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.11.14)  21 FEB 2026 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,11 +736,11 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 8.8pt on input line 76.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.6pt on input line 76.
-<mider.png, id=1, 416.2752pt x 83.3514pt>
+<mider.png, id=1, 752.8125pt x 150.5625pt>
 File: mider.png Graphic file (type png)
 <use mider.png>
 Package pdftex.def Info: mider.png  used on input line 84.
-(pdftex.def)             Requested size: 452.96826pt x 90.70366pt.
+(pdftex.def)             Requested size: 452.96826pt x 90.59549pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 15.0pt on input line 92.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
@@ -820,14 +820,14 @@ Package pdftex.def Info: header.png  used on input line 163.
 {d:/software/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{d:/soft
 ware/texlive/2025/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{d:/software/
 texlive/2025/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc} <./header.png> <
-./mider.png> <./footer.png> <./joker.png (PNG copy)>]
+./mider.png (PNG copy)> <./footer.png> <./joker.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.5pt on input line 179.
+(Font)              scaled to size 10.5pt on input line 177.
 
 
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 191.
+Package pdftex.def Info: header.png  used on input line 189.
 (pdftex.def)             Requested size: 452.96826pt x 65.53732pt.
 [2] (./document.aux)
  ***********
@@ -849,7 +849,7 @@ are/texlive/2025/texmf-dist/fonts/type1/public/newtx/txsys.pfb><d:/software/tex
 live/2025/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/software/texlive/202
 5/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/software/texlive/2025/texmf-
 dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on document.pdf (2 pages, 307450 bytes).
+Output written on document.pdf (2 pages, 303079 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
