@@ -1,0 +1,103 @@
+% 只需调用自定义的JoA类，无需任何额外配置
+\documentclass{JoA}
+
+\begin{document}
+	
+	\begin{center}
+		\interlinepenalty=10000
+		% 调用类中定义的命令设置标题/作者/单位
+		\JoAtitle{你的论文标题}
+		
+		\vspace{1\baselineskip}
+		\JoAauthor{第一作者$^{1,*}$, 第二作者$^{2}$}
+		\vspace{0.5\baselineskip}
+		\JoAaffiliation{$^{1}$单位名称/学院，大学名称，城市 邮编，中国 \\ $^{2}$单位名称/学院，大学名称，城市 邮编，中国}
+		\vspace{0.2\baselineskip}
+		
+		\includegraphics[width=\textwidth]{mider.png}
+	\end{center}
+	
+	% 摘要和关键词
+	\JoAabstract{本研究针对当代青年群体在精神内耗闭环与电子木鱼负反馈调节系统中的动力学失稳问题，构建了基于躺平-内卷非对称博弈模型的多模态抽象表征框架。通过引入显眼包浓度梯度与精神状态薛定谔方程，对网络热梗在信息茧房中的熵增速率进行原位表征。结果表明：当发疯文学占比超过临界阈值时，系统将自发进入摆烂稳态，并伴随破防概率的指数级上升。本文所提抽象度量化指标可有效预测社交平台的流量黑洞现象，为下一代赛博精神稳定器的设计提供了全新的底层逻辑。}
+	
+	\JoAkeyword{原位表征；电子木鱼；赛博精神稳定器；流量黑洞}
+	
+	% 中图分类号/文献标识码
+	\noindent {\fontsize{12pt}{12pt}\selectfont
+		\bfseries\color{myred}中图分类号：\normalfont\color{black} S123.45 \quad
+		\bfseries\color{myred}文献标识码：\normalfont\color{black} A
+	}
+	
+	\noindent\includegraphics[width=\textwidth]{footer.png}
+	
+	% 正文内容
+	\begin{multicols}{2}
+		\section{引言}
+		引言内容在此处填写。
+		
+		\section{理论模型}
+		\subsection{示例模型}
+		我们采用定态薛定谔方程描述该系统：
+	\end{multicols}
+	
+	% 数学公式
+	\begin{equation}
+		-\frac{\hbar^2}{2m} \frac{\partial^2 \psi}{\partial x^2} + V(x)\psi = E \psi
+	\end{equation}
+	
+	\begin{multicols}{2}
+		\noindent
+		其中，$T$ 为动能算符，$V(x)$ 为势能函数。
+	\end{multicols}
+	
+	% 图片
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.2\textwidth]{joker.png}
+		\doublefigcaption{示例图片}{Example Picture}
+		\label{fig:joker}
+	\end{figure}
+	
+	% 表格
+	\begin{table}[H]
+		\centering
+		\doubletblcaption{示例表格}{Example Table}
+		\label{tab:example}
+		\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X>{\centering\arraybackslash}X}
+			\toprule
+			列1 & 列2 & 列3 & 列4 & 列5 \\
+			\midrule
+			数据1 & 数据2 & 数据3 & 数据4 & 数据5 \\
+			数据1 & 数据2 & 数据3 & 数据4 & 数据5 \\
+			数据1 & 数据2 & 数据3 & 数据4 & 数据5 \\
+			\bottomrule
+		\end{tabularx}
+	\end{table}
+	
+	\begin{multicols}{2}
+		\section{实验结果}
+		实验结果内容在此处填写。
+		
+		\section{结论}
+		结论内容在此处填写。
+	\end{multicols}
+	
+	\noindent\includegraphics[width=\textwidth]{footer.png}
+	
+	% 参考文献
+	\begin{multicols}{2}
+		\begin{thebibliography}{99}
+			\bibitem{book1}
+			张三, 李四, 王五. 量子力学基础[M]. 2版. 北京: 科学出版社, 2020: 56-89.
+			\bibitem{journal1}
+			赵六, 钱七, 孙八, 等. 薛定谔方程的数值解法[J]. 物理学报, 2021, 70(12): 120301.
+			\bibitem{thesis1}
+			周九. 低维系统的量子输运特性研究[D]. 上海: 复旦大学物理系, 2022.
+			\bibitem{electronic1}
+			吴十. 量子计算最新进展[EB/OL]. (2023-05-10)[2023-06-15]. https://www.example.com/quantum-computing.
+			\bibitem{foreign_journal1}
+			SMITH J, JONES K, BROWN L. Quantum entanglement in two-particle systems[J]. Physical Review Letters, 2020, 125(8): 080501.
+		\end{thebibliography}
+	\end{multicols}
+	
+\end{document}
